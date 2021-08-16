@@ -1,4 +1,13 @@
 # Run on macOS Big Sur 11.5
+
+## Developing History
+1. I made the view with React.    
+2. I made the backend with Django.  
+3. I made the dynamoDB on AWS and tried to integrate.  
+   I knew that I need to implement the part for interface between admin and dynamoDB from the scratch.
+   So I changed the DB part to postgreSQL since I am using the Django for a productivity.
+4. I'm doing it. Mon Aug 16.
+
 ### Requirements
 - Python ()
 - Django (pip3 install django)
