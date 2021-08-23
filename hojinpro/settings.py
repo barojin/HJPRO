@@ -30,6 +30,10 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+CORS_ORIGIN_WHITELIST = [
+     'http://localhost:3000'
+]
+
 INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
@@ -127,9 +131,6 @@ STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CORS_ORIGIN_WHITELIST = [
-     'http://localhost:3000'
-]
 """
 django-cors-headers is a Python library that will prevent the errors that you would normally get due to CORS rules. 
 In the CORS_ORIGIN_WHITELIST code, you whitelisted localhost:3000 

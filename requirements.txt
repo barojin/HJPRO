@@ -1,0 +1,7 @@
+asgiref==3.4.1
+# Editable install with no version control (Django==3.2.5)
+-e /Users/hojinnam/.virtualenvs/djangodev/lib/python3.8/site-packages
+pytz==2021.1
+sqlparse==0.4.1
+django-cors-headers==3.7.0
+djangorestframework==3.12.4

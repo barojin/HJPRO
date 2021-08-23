@@ -6,7 +6,12 @@
 3. I made the dynamoDB on AWS and tried to integrate.  
    I knew that I need to implement the part for interface between admin and dynamoDB from the scratch.
    So I changed the DB part to postgreSQL since I am using the Django for a productivity.
-4. I'm doing it. Mon Aug 16.
+4. I'm doing a Docker. Mon Aug 16.
+
+I will 
+make the model for react.
+add postgreSQL of AWS.
+add project to django.
 
 ### Requirements
 - Python ()
